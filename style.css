@@ -1,0 +1,852 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.artboard {
+  position: absolute;
+  width: 91.4vw;
+  height: 381.3vw;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.rounded {
+  position: absolute;
+  top: 2.3vw;
+  left: 41.6vw;
+  width: 11.7vw;
+  height: 3.4vw;
+}
+
+.navbar {
+  background-color: transparent !important;
+  top: 7.9vw !important;
+  left: 17.7vw !important;
+  width: 55.8vw !important;
+  height: 1.8vw !important;
+  font: normal normal 600 1.3vw/1.8vw Segoe UI !important;
+  letter-spacing: 0rem !important;
+  color: #000000 !important;
+}
+
+.nav-item {
+  padding: 1.5vw;
+}
+
+.rounded1 {
+  position: absolute !important;
+  top: 11.1vw !important;
+  right: -2.4vw !important;
+  width: 36.3vw !important;
+  height: 37vw !important;
+  opacity: 1 !important;
+}
+
+.h1 {
+  position: absolute !important;
+  top: 18.1vw !important;
+  left: 8.6vw !important;
+  width: 39.14vw !important;
+  height: 7.7vw !important;
+  text-align: left !important;
+  font: normal normal 900 2.8vw/3.8vw Nunito Sans !important;
+  letter-spacing: 0rem !important;
+  color: #000000 !important;
+  opacity: 1 !important;
+  font-weight: bold !important;
+}
+
+.lead {
+  position: absolute !important;
+  top: 27.2vw !important;
+  left: 8.6vw !important;
+  width: 37.1vw !important;
+  height: 8.5vw !important;
+  text-align: left !important;
+  font: normal normal normal 1.3vw/1.7vw Nunito Sans !important;
+  letter-spacing: 0rem !important;
+  color: #000000 !important;
+  opacity: 1 !important;
+}
+
+.container2 {
+  position: absolute !important;
+  top: 32.8vw !important;
+  left: 0rem !important;
+  width: 98.8vw !important;
+  height: 88vw !important;
+  opacity: 1 !important;
+  transform: matrix(-1, 0, 0, -1, 0, 0) !important;
+}
+
+.box {
+  position: absolute;
+  top: 32.8vw;
+  left: 0rem;
+  width: 103.2vw;
+  height: 33.6vw;
+  background: #F8FAFC 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.btn {
+  position: absolute !important;
+  top: 40.2vw;
+  left: 8.6vw;
+  width: 17.6vw;
+  height: 4.6vw;
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2.3vw;
+  opacity: 1;
+  font: normal normal 600 1.5vw/2.1vw Nunito Sans;
+  letter-spacing: 0px;
+}
+
+.h2 {
+  position: absolute;
+  top: 59.5vw;
+  left: 19vw;
+  width: 63.4vw;
+  height: 3.3vw;
+  text-align: left;
+  font: normal normal bold 2.5vw/3.3vw Nunito Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+}
+
+.card {
+  position: absolute !important;
+  top: 67.1vw;
+  left: 12.8vw;
+  width: 22vw;
+  height: 22.8vw;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 0.2vw 0.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 1.2vw;
+}
+
+.con1 {
+  top: 67.1vw;
+  left: 38.7vw;
+}
+
+.con2 {
+  top: 67.1vw;
+  left: 64.5vw;
+  height: 22.8vw;
+}
+
+.wave2 {
+  position: absolute;
+  left: 0vw;
+  width: 98.4vw;
+  height: 16.9vw;
+  opacity: 1;
+  transform: matrix(-1, 0, 0, -1, 0, 0) !important;
+}
+
+.h3 {
+  position: absolute;
+  top: 103.2vw;
+  left: 19vw;
+  width: 63.4vw;
+  height: 3.3vw;
+  text-align: left;
+  font: normal normal bold 2.5vw/3.3vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.girl {
+  position: absolute;
+  top: 114.5vw;
+  left: 8.7vw;
+  width: 14.2vw;
+  height: 14.2vw;
+}
+
+.box1 {
+  position: absolute;
+  top: 8.8vw;
+  left: 0vw;
+  width: 103.21vw;
+  height: 33.6vw;
+  background: #F8FAFC 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.title1 {
+  position: absolute;
+  top: 130.3vw;
+  left: 7.4vw;
+  width: 13.5vw;
+  height: 1.7vw;
+  text-align: center;
+  font: normal normal bold 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.lead1 {
+  position: absolute;
+  top: 133.2vw;
+  left: 8.07vw;
+  width: 23.4vw;
+  height: 12vw;
+  text-align: left;
+  font: normal normal normal 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.boy {
+  position: absolute;
+  top: 114.5vw;
+  left: 35.2vw;
+  width: 14.2vw;
+  height: 14.2vw;
+}
+
+.title2 {
+  position: absolute;
+  top: 130.3vw;
+  left: 34.5vw;
+  width: 13.5vw;
+  height: 1.7vw;
+  text-align: center;
+  font: normal normal bold 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.lead2 {
+  position: absolute;
+  top: 133.2vw;
+  left: 35.2vw;
+  width: 23.4vw;
+  height: 12vw;
+  text-align: left;
+  font: normal normal normal 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.girl3 {
+  position: absolute;
+  top: 114.5vw;
+  left: 62.5vw;
+  width: 14.2vw;
+  height: 14.2vw;
+}
+
+.title3 {
+  position: absolute;
+  top: 130.3vw;
+  left: 61.9vw;
+  width: 13.5vw;
+  height: 1.7vw;
+  text-align: center;
+  font: normal normal bold 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.lead3 {
+  position: absolute;
+  top: 133.2vw;
+  left: 62.5vw;
+  width: 23.4vw;
+  height: 12vw;
+  text-align: left;
+  font: normal normal normal 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.inner_content1 {
+  position: absolute;
+  left: 4.9vw;
+}
+
+.inner_content2 {
+  position: absolute;
+  left: 5.9vw;
+}
+
+.inner_content3 {
+  position: absolute;
+  right: 92.7vw;
+}
+
+.h4 {
+  position: absolute;
+  top: 155.07vw;
+  left: 19vw;
+  width: 63.4vw;
+  height: 3.3vw;
+  text-align: left;
+  font: normal normal bold 2.5vw/3.3vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.pic1 {
+  position: absolute;
+  top: 164.5vw;
+  left: 7.9vw;
+  width: 5vw;
+  height: 5vw;
+}
+
+.title4 {
+  position: absolute;
+  top: 165.9vw;
+  left: 16vw;
+  width: 18.07vw;
+  height: 2.2vw;
+  text-align: left;
+  font: normal normal bold 1.7vw/2.2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.lead4 {
+  position: absolute;
+  top: 170.5vw;
+  left: 7.5vw;
+  width: 42.1vw;
+  height: 4vw;
+  text-align: left;
+  font: normal normal normal 1.5vw/2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.pic2 {
+  position: absolute;
+  top: 182.5vw;
+  left: 53.3vw;
+  width: 4.4vw;
+  height: 4.4vw;
+}
+
+.title5 {
+  position: absolute;
+  top: 183.5vw;
+  left: 59.8vw;
+  width: 18.07vw;
+  height: 2.2vw;
+  text-align: left;
+  font: normal normal bold 1.7vw/2.2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.lead5 {
+  position: absolute;
+  top: 187.7vw;
+  left: 53.3vw;
+  width: 33.6vw;
+  height: 4vw;
+  text-align: left;
+  font: normal normal normal 1.5vw/2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.pic3 {
+  position: absolute;
+  top: 205.6vw;
+  left: 7.4vw;
+  width: 5.5vw;
+  height: 5.5vw;
+}
+
+.title6 {
+  position: absolute;
+  top: 207.1vw;
+  left: 16vw;
+  width: 18.07vw;
+  height: 2.2vw;
+  text-align: left;
+  font: normal normal bold 1.7vw/2.2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.lead6 {
+  position: absolute;
+  top: 212.7vw;
+  left: 7.5vw;
+  width: 42.1vw;
+  height: 4vw;
+  text-align: left;
+  font: normal normal normal 1.5vw/2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.pic4 {
+  position: absolute;
+  top: 228.6vw;
+  left: 53vw;
+  width: 6.4vw;
+  height: 6.4vw;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.title7 {
+  position: absolute;
+  top: 230vw;
+  left: 60.3vw;
+  width: 18.07vw;
+  height: 2.2vw;
+  text-align: left;
+  font: normal normal bold 1.7vw/2.2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.lead7 {
+  position: absolute;
+  top: 235.8vw;
+  left: 53.3vw;
+  width: 33.6vw;
+  height: 4vw;
+  text-align: left;
+  font: normal normal normal 1.5vw/2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.btn1 {
+  top: 176.1vw;
+  left: 7.5vw;
+  width: 17.6vw;
+  height: 4.6vw;
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2.3vw;
+  opacity: 1;
+  text-align: center;
+  font: normal normal 600 1.6vw/2.2vw Nunito Sans;
+  letter-spacing: 0vw;
+}
+
+.btn2 {
+  top: 194.1vw;
+  left: 53.3vw;
+  width: 17.6vw;
+  height: 4.6vw;
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2.3vw;
+  opacity: 1;
+  text-align: center;
+  font: normal normal 600 1.6vw/2.2vw Nunito Sans;
+  letter-spacing: 0vw;
+}
+
+.btn3 {
+  top: 218.5vw;
+  left: 7.5vw;
+  width: 17.6vw;
+  height: 4.6vw;
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2.3vw;
+  opacity: 1;
+  text-align: center;
+  font: normal normal 600 1.6vw/2.2vw Nunito Sans;
+  letter-spacing: 0vw;
+}
+
+.btn4 {
+  top: 241.9vw;
+  left: 53vw;
+  width: 17.6vw;
+  height: 4.6vw;
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2.3vw;
+  opacity: 1;
+  text-align: center;
+  font: normal normal 600 1.6vw/2.2vw Nunito Sans;
+  letter-spacing: 0vw;
+}
+
+.h5 {
+  position: absolute;
+  top: 260vw;
+  left: 35.5vw;
+  width: 26.2vw;
+  height: 3.3vw;
+  text-align: left;
+  font: normal normal bold 2.5vw/3.3vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.star {
+  position: absolute;
+  top: 271.6vw;
+  left: 12.2vw;
+  width: 4.5vw;
+  height: 4.5vw;
+}
+
+.starh1 {
+  position: absolute;
+  top: 272.6vw;
+  left: 18.7vw;
+  width: 19.6vw;
+  height: 2.4vw;
+  text-align: left;
+  font: normal normal 900 1.7vw/2.4vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.carousel {
+  position: absolute;
+  top: 268.8vw;
+  left: 9.5vw;
+  width: 78.3vw;
+  height: 25.9vw;
+  background: #F8FAFC 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 4.2vw;
+  opacity: 1;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 15.7vw;
+  left: 76.1vw;
+  width: 4.4vw;
+  height: 4.5vw;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 0.5vw 1.2vw rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.cal {
+  position: absolute;
+  top: 279.6vw;
+  left: 14.5vw;
+  width: 20.3vw;
+  height: 18.7vw;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2.1vw;
+  opacity: 1;
+}
+
+.cal1 {
+  position: absolute;
+  top: 279.6vw;
+  left: 38vw;
+  width: 20.3vw;
+  height: 18.7vw;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2.1vw;
+  opacity: 1;
+}
+
+.cal2 {
+  position: absolute;
+  top: 279.6vw;
+  left: 61.2vw;
+  width: 20.3vw;
+  height: 18.7vw;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2.1vw;
+  opacity: 1;
+}
+
+.name1 {
+  position: absolute;
+  top: 2vw;
+  left: 5.7vw;
+  width: 5.7vw;
+  height: 1.1vw;
+  text-align: left;
+  font: normal normal 60 0.8vw/1.1vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.face1, .face2, .face3 {
+  position: absolute;
+  left: 2vw;
+  top: 1.5vw;
+}
+
+.facestar {
+  position: absolute;
+  top: 2vw;
+  width: 1.07vw;
+  height: 1vw;
+}
+
+.stars1 {
+  left: 13.2vw;
+}
+
+.stars2 {
+  left: 14.4vw;
+}
+
+.stars3 {
+  left: 15.5vw;
+}
+
+.stars4 {
+  left: 16.7vw;
+}
+
+.card-subtitle {
+  position: absolute;
+  top: 3.5vw;
+  left: 6vw;
+  width: 10.9vw;
+  height: 1.2vw;
+  text-align: left;
+  font: normal normal 600 0.9vw/1.2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #615C5C;
+  opacity: 1;
+}
+
+.txt1 {
+  position: absolute;
+  top: 7.2vw;
+  left: 1.7vw;
+  width: 16.9vw;
+  height: 9vw;
+  text-align: left;
+  font: normal normal normal 0.9vw/1.2vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.face2 {
+  position: absolute;
+  top: 1.5vw;
+  left: 2vw;
+  width: 3vw;
+  height: 3.1vw;
+}
+
+.stars5 {
+  left: 13.8vw;
+}
+
+.stars6 {
+  left: 14.9vw;
+}
+
+.stars7 {
+  left: 16.1vw;
+}
+
+.stars8 {
+  left: 17.2vw;
+}
+
+.stars9 {
+  left: 13.7vw;
+}
+
+.stars10 {
+  left: 14.8vw;
+}
+
+.stars11 {
+  left: 16.07vw;
+}
+
+.stars12 {
+  left: 17.2vw;
+}
+
+.elementimg1 {
+  position: absolute;
+  top: 334.7vw;
+  left: 13.4vw;
+  width: 13.2vw;
+  height: 4.1vw;
+}
+
+.elementimg2 {
+  position: absolute;
+  top: 333.2vw;
+  left: 41vw;
+  width: 12.6vw;
+  height: 7.1vw;
+}
+
+.elementimg3 {
+  position: absolute;
+  top: 333.2vw;
+  left: 69.1vw;
+  width: 6.3vw;
+  height: 6.3vw;
+}
+
+.elements {
+  position: absolute;
+  left: 4.9vw;
+}
+
+.headingname {
+  position: absolute;
+  top: 319.7vw;
+  left: 20vw;
+  width: 63.4vw;
+  height: 3.3vw;
+  text-align: left;
+  font: normal normal bold 2.5vw/3.3vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.element-text1 {
+  position: absolute;
+  top: 340.1vw;
+  left: 16.5vw;
+  width: 8.4vw;
+  height: 1.7vw;
+  text-align: center;
+  font: normal normal bold 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.element-text2 {
+  position: absolute;
+  top: 340.14vw;
+  left: 41.2vw;
+  width: 13.7vw;
+  height: 1.7vw;
+  text-align: center;
+  font: normal normal bold 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.element-text3 {
+  position: absolute;
+  top: 340.1vw;
+  left: 69.9vw;
+  width: 4.8vw;
+  height: 1.7vw;
+  text-align: center;
+  font: normal normal bold 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #000000;
+  opacity: 1;
+}
+
+.footer {
+  position: absolute;
+  top: 355.3vw;
+  height: 26vw;
+  width: 98.8vw;
+  background-color: #000000 !important;
+  opacity: 1;
+}
+
+.footertxt {
+  position: absolute;
+  top: 20.5vw;
+  right: 45.2vw;
+  height: 1.7vw;
+  text-align: center;
+  font: normal normal bold 1.2vw/1.7vw Nunito Sans;
+  letter-spacing: 0vw;
+  color: #FFFFFF !important;
+  opacity: 1;
+}
+
+.iconc {
+  position: absolute;
+  top: 20.8vw;
+  right: 53.5vw;
+  width: 1.6vw;
+  width: 1.6vw;
+  height: 1.6vw;
+  font-style: italic;
+  opacity: 1;
+  color: #FAFAFA;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 0.07vw;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+hr {
+  position: absolute !important;
+  top: 9.4vw;
+  left: -29vw;
+  width: 127.8vw;
+  border: 0px solid #707070;
+  opacity: 1;
+}
+
+.card-title {
+  top: 2vw;
+  left: 5.9vw;
+  width: 13.1vw;
+  height: 1.6vw;
+  position: absolute;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.card-text {
+  position: absolute;
+  top: 6.5vw;
+  left: 1.3vw;
+  width: 18.8vw;
+  height: 13.3vw;
+  font-size: 1.1vw;
+}
+
+.innercxt1, .innercxt {
+  position: absolute;
+  left: 2.9vw;
+}/*# sourceMappingURL=style.css.map */
